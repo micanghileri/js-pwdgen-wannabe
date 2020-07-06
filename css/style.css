@@ -1,6 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#name-banner {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#name-banner img {
+    height: 60px;
+}
+
+#name-banner h1 {
+    padding-top: 10px;
+    color: #0c0c0c;
+}
+
+#psw {
+    background-color: #ffcccc;
+    padding: 20px 0;
+    width: 800px;
+    border-radius: 18px;
+    margin: 0 auto;
+}
+
 #pswresult {
     font-size: 24px;
     font-weight: bold;
-    background-color: #ffcccc;
     text-align: center;
+    color: #ff0000;
 }
